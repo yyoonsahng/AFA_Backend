@@ -45,7 +45,7 @@
         },
         {
             "mesh" : 0,
-            "name" : "char1",
+            "name" : "lerhamn-chair-light",
             "rotation" : [
                 0.7071068286895752,
                 0,
@@ -62,7 +62,7 @@
                 0,
                 0
             ],
-            "name" : "$Material_0",
+            "name" : "$Material_0.001",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -77,7 +77,7 @@
     ],
     "meshes" : [
         {
-            "name" : "char1",
+            "name" : "lerhamn-chair-light",
             "primitives" : [
                 {
                     "attributes" : {
@@ -94,23 +94,23 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 2498,
+            "count" : 2494,
             "max" : [
-                0.18794861435890198,
-                0.5073547959327698,
-                0.25476527214050293
+                0.26475289463996887,
+                0.23552586138248444,
+                0.5090853571891785
             ],
             "min" : [
-                -0.1939699798822403,
-                -0.5080655813217163,
-                -0.24625349044799805
+                -0.2575076222419739,
+                -0.24185706675052643,
+                -0.506614625453949
             ],
             "type" : "VEC3"
         },
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 2498,
+            "count" : 2494,
             "type" : "VEC3"
         },
         {
@@ -123,24 +123,24 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 29976,
+            "byteLength" : 29928,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 29976,
-            "byteOffset" : 29976
+            "byteLength" : 29928,
+            "byteOffset" : 29928
         },
         {
             "buffer" : 0,
             "byteLength" : 30000,
-            "byteOffset" : 59952
+            "byteOffset" : 59856
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 89952,
-            "uri" : "sofa.bin"
+            "byteLength" : 89856,
+            "uri" : "lerhamn-chair-light.bin"
         }
     ]
 }
