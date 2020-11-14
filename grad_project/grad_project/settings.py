@@ -13,7 +13,7 @@ import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent
+BASE_DIR = 'D:\GitHub\AFA_Backend\grad_project\grad_project'
 
 
 # Quick-start development settings - unsuitable for production
@@ -25,8 +25,7 @@ SECRET_KEY = 'z4p2e_(pzp+o$n=17zs7(6f&cst4!@=(%frw*$ddl2joo&z6)i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ["222.120.108.228"]
 
 # Application definition
 
@@ -78,7 +77,7 @@ WSGI_APPLICATION = 'grad_project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': BASE_DIR + '/' 'db.sqlite3',
     }
 }
 
