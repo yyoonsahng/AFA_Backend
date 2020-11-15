@@ -25,7 +25,7 @@ SECRET_KEY = 'z4p2e_(pzp+o$n=17zs7(6f&cst4!@=(%frw*$ddl2joo&z6)i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["222.120.108.228"]
+ALLOWED_HOSTS = []
 
 # Application definition
 
